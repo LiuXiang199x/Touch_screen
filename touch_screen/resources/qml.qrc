@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>error.qml</file>
+        <file>image/default.png</file>
+        <file>menu/default.png</file>
+        <file>componentes/Imagen.qml</file>
+        <file>Myscripts/creacion_componentes.js</file>
+        <file>componentes/Texto.qml</file>
+        <file>componentes/Menu.qml</file>
+        <file>forms/Template0.qml</file>
+        <file>forms/Template1.qml</file>
+        <file>forms/Contenedor.qml</file>
+        <file>componentes/Video.qml</file>
+        <file>componentes/Audio.qml</file>
+        <file>componentes/My_button.qml</file>
+        <file>forms/Template2.qml</file>
+        <file>forms/Template3.qml</file>
+        <file>forms/Template4.qml</file>
+        <file>forms/Template5.qml</file>
+        <file>forms/Template6.qml</file>
+        <file>forms/Template7.qml</file>
+        <file>forms/Template8.qml</file>
+        <file>forms/Template9.qml</file>
+        <file>componentes/My_button_anim.qml</file>
+        <file>forms/Template10.qml</file>
+        <file>componentes/My_button_anim_Y.qml</file>
+        <file>Myscripts/juegos.js</file>
+        <file>componentes/My_webview.qml</file>
+        <file>componentes/Gif.qml</file>
+        <file>componentes/Progress_bar.qml</file>
+    </qresource>
+</RCC>

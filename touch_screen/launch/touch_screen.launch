@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <arg name="robot" />
+
+    <arg name="multimedia_path" default="$(find touch_screen)/resources/multimedia" />
+
+    <arg name="window_state" default="window" /> <!-- window_state:=fullscreen|window|maximize|minimize|hide -->
+    
+    <group ns="$(arg robot)">
+        <node pkg="touch_screen" type="screen_interface" name="screen_interface" output="screen"
+            required="true">
+            <param name="multimedia_path" value="$(arg multimedia_path)" />
+            <param name="window_state" value="$(arg window_state)" />
+        </node>
+    </group>
+</launch>
